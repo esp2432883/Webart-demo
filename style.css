@@ -1,0 +1,115 @@
+body, html{background-color: #482522}
+
+@font-face{
+  font-family: metal gothic;
+  src:url("MetalGothic-DemoVersion-Regular.ttf") format("opentype");
+}
+
+@font-face{
+  font-family: cabaret-filled;
+  src:url("CabaretFilled.ttf") format("opentype");
+}
+
+@font-face{
+  font-family: Plain Germanica;
+  src:url("Plain\ Germanica.ttf") format("opentype");
+
+}
+
+
+h2{
+  font-family: cabaret-filled;
+  font-size: 80px;
+  color:#0000008e;
+}
+h1{
+  font-family: cabaret-filled;
+  font-size: 100px;
+  color:#0000008e;
+}
+ 
+h3{
+  font-family: cabaret-filled;
+  font-size: 70px;
+  color:#0000008e
+}
+
+h4{
+  font-size: 100px;
+}
+
+h5{
+  font-size: 50px;
+}
+
+h6{
+  font-size: 45px;
+}
+
+h7{
+  font-family: metal gothic;
+  font-size: 35px;
+  color:rgb(223, 21, 21)
+}
+
+h8{
+  font-family: metal gothic;
+  font-size: 45px;
+  color:rgb(255, 255, 255)
+}
+
+h9{
+  font-family: cabaret-filled;
+  font-size: 100px;
+  color:rgb(223, 21, 21)
+}
+
+h10{
+  font-family: cabaret-filled;
+  font-size: 100px;
+  color:rgb(223, 21, 21)
+}
+
+h11{
+  font-family: Plain Germanica;
+  font-size: 100px;
+  color:black
+}
+
+.inline-block {
+  display: inline-block;
+}
+  
+
+div{
+  margin-left: 3em;
+  margin-right: 4em;
+}
+
+
+p{
+  display: inline-block;
+  width: 33.33%;
+  text-align: center;
+  box-sizing: border-box; 
+  font-family: metal gothic;
+  font-size: 45px;
+  color:rgb(223, 21, 21)
+}
+
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: none;
+  font-size:35px;
+  color:rgb(255, 0, 0);
+}
+
+a{
+  font-family: metal gothic;
+  font-size: 35px;
+  color:#ff190098
+}
+
